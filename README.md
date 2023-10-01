@@ -1,8 +1,8 @@
 # Домашнее задание к занятию "6. Работа с файлами, DnD"
 
-<!-- ![CI](https://github.com/RomanMenshikov92/new-repo-ahj-homeworks-drag_and_drop.-Files/actions/workflows/web.yml/badge.svg)
+![CI](https://github.com/RomanMenshikov92/new-repo-ahj-homeworks-drag_and_drop.files/actions/workflows/web.yml/badge.svg)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/2rn9pa9bg5wsamrs?svg=true)](https://ci.appveyor.com/project/RomanMenshikov92/new-repo-ahj-homeworks-drag-and-drop-files) -->
+[![Build status](https://ci.appveyor.com/api/projects/status/kaqjiqlo8hn7h4mj?svg=true)](https://ci.appveyor.com/project/RomanMenshikov92/new-repo-ahj-homeworks-drag-and-drop-files-muvu3)
 
 Правила сдачи задания:
 
