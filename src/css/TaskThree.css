@@ -1,0 +1,79 @@
+.task-three {
+  box-sizing: border-box;
+  position: relative;
+  min-width: 240px;
+  width: 100%;
+  max-width: 800px;
+  margin: 5px;
+
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  color: #ffffff;
+  background-color: #44525c;
+
+  border: 1px solid #0c1e3b;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #7e7e7e;
+}
+
+.cell {
+  box-sizing: border-box;
+
+  width: 100%;
+  margin: 0;
+  padding: 5px 5px 15px;
+
+  background-color: gray;
+  background-size: 20px 20px;
+  background-position: center center;
+}
+
+.header {
+  box-sizing: border-box;
+  padding: 11px 20px;
+  width: 90%;
+  margin: auto;
+}
+
+.downloader-container {
+  box-sizing: border-box;
+  width: 90%;
+  margin: 10px auto 0;
+  padding: 15px;
+
+  background: linear-gradient(45deg, #0c1e3b -50%, #c4c4c4 200%);
+  border-radius: 20px;
+}
+
+.file-list {
+  list-style-type: none;
+}
+
+.file-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 100%;
+  margin-top: 15px;
+}
+
+.file-name {
+  width: 200px;
+}
+
+.file-size {
+  width: 80px;
+}
+
+.file-url {
+  width: 75px;
+}
+
+.file-size-text {
+  width: 90%;
+  margin: 15px auto 0;
+}

@@ -1,0 +1,197 @@
+.task-one {
+  max-width: 1200px;
+
+  margin: 0 5px;
+  padding: 0 5px 5px;
+
+  border: none;
+  border-radius: 5px;
+
+  box-shadow: 2px 2px 5px #7e7e7e;
+
+  background-color: gray;
+}
+
+.hide {
+  display: none;
+}
+
+.board {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding: 0 4px;
+}
+
+.list-container {
+  box-sizing: border-box;
+
+  width: calc(100% / 3 - 42px);
+  min-width: 220px;
+
+  margin: 10px 4px;
+
+  background-color: #e7e7e7;
+
+  border: none;
+  border-radius: 5px;
+
+  box-shadow: 2px 2px 5px #7e7e7e;
+}
+
+.list-container:nth-last-child(1) {
+  margin-right: 4px;
+}
+
+.list-name {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 10px;
+}
+
+.list-card {
+  position: relative;
+}
+
+.card {
+  box-sizing: content-box;
+  display: block;
+
+  position: relative;
+
+  list-style-type: none;
+  margin: 8px 8px 0px;
+
+  font-size: 14px;
+
+  width: 205px;
+  /* width: calc(100% - 16px); */
+
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px #7e7e7e;
+  background-color: #dbdbdb;
+
+  cursor: grab;
+
+  touch-action: none;
+}
+
+.card-text {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 3px 15px 3px 5px;
+
+  word-wrap: anywhere;
+}
+
+.card:hover .card-del::before {
+  content: "\2715";
+
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+
+  width: 18px;
+  height: 18px;
+
+  text-align: center;
+  line-height: 18px;
+
+  border-radius: 50%;
+
+  cursor: pointer;
+}
+
+.card-creator-text-container {
+  padding: 0;
+}
+
+.card-creator-text {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+
+  background-color: #dbdbdb;
+  border: none;
+  outline: none;
+  resize: vertical;
+}
+
+.card-creator-controls {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  margin: auto;
+}
+
+.card-creator-add {
+  margin: 8px;
+  padding: 6px 10px;
+
+  font-size: 12px;
+
+  border: none;
+  border-radius: 5px;
+
+  color: #f0f2f3;
+
+  background-color: #0c1e3b;
+
+  cursor: pointer;
+}
+
+.card-creator-close {
+  width: 20px;
+  height: 20px;
+
+  font-size: 18px;
+  line-height: 20px;
+
+  background: transparent;
+
+  border: none;
+
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.card-creator-close::before {
+  content: "\2715";
+}
+
+.card-add-btn {
+  margin: 8px;
+
+  font-size: 14px;
+  color: #646464;
+
+  cursor: pointer;
+}
+
+.card-drag {
+  position: absolute;
+  z-index: 999;
+  margin: 0;
+  width: 205px;
+
+  top: 0;
+  left: 0;
+
+  transform: rotate(2deg);
+
+  cursor: grabbing;
+}
+
+.dragged.card {
+  color: rgba(0, 0, 0, 0);
+  background-color: #9ecbcc;
+  box-shadow: none;
+}
